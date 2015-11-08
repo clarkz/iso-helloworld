@@ -15,6 +15,7 @@
 		E43E56C61BD0B014009BEBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43E56C41BD0B014009BEBA6 /* LaunchScreen.storyboard */; };
 		E43E56D11BD0B014009BEBA6 /* HelloWorldHastingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E56D01BD0B014009BEBA6 /* HelloWorldHastingsTests.swift */; };
 		E43E56DC1BD0B014009BEBA6 /* HelloWorldHastingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E56DB1BD0B014009BEBA6 /* HelloWorldHastingsUITests.swift */; };
+		E459F52B1BE6E5C70041A574 /* NextGCollectionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E459F52A1BE6E5C70041A574 /* NextGCollectionCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E43E56D71BD0B014009BEBA6 /* HelloWorldHastingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldHastingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43E56DB1BD0B014009BEBA6 /* HelloWorldHastingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldHastingsUITests.swift; sourceTree = "<group>"; };
 		E43E56DD1BD0B014009BEBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E459F52A1BE6E5C70041A574 /* NextGCollectionCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGCollectionCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E43E56C41BD0B014009BEBA6 /* LaunchScreen.storyboard */,
 				E43E56C71BD0B014009BEBA6 /* Info.plist */,
 				E43E56BF1BD0B014009BEBA6 /* HelloWorldHastings.xcdatamodeld */,
+				E459F52A1BE6E5C70041A574 /* NextGCollectionCalculator.swift */,
 			);
 			path = HelloWorldHastings;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				E43E56BB1BD0B014009BEBA6 /* ViewController.swift in Sources */,
 				E43E56B91BD0B014009BEBA6 /* AppDelegate.swift in Sources */,
+				E459F52B1BE6E5C70041A574 /* NextGCollectionCalculator.swift in Sources */,
 				E43E56C11BD0B014009BEBA6 /* HelloWorldHastings.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +494,7 @@
 				E43E56E21BD0B014009BEBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E43E56E31BD0B014009BEBA6 /* Build configuration list for PBXNativeTarget "HelloWorldHastingsTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				E43E56E51BD0B014009BEBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E43E56E61BD0B014009BEBA6 /* Build configuration list for PBXNativeTarget "HelloWorldHastingsUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				E43E56E81BD0B014009BEBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
